@@ -1,0 +1,65 @@
+/************ GENEREAL STYLES ************/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+/**** Variables ****/
+:root {
+  --Font: 'Outfit', sans-serif;
+  --Bg-color: hsl(212, 45%, 89%);
+  --Card-color: hsl(0, 0%, 100%);
+  --Title-color: hsl(218, 44%, 22%);
+  --Paragraph-color: hsl(220, 15%, 55%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: var(--Bg-color);
+  font-size: 0.938rem;
+}
+
+/************ MAIN ************/
+.card {
+  margin: 5.667em auto;
+  padding: 1.2em;
+  width: 21.467em;
+  height: 33.333em;
+  background: var(--Card-color);
+  border-radius: 1.3em;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
+}
+
+/** Image **/
+.card__qr-code {
+  width: 288px;
+  border-radius: .7em;
+}
+
+/** Text **/
+.card__description {
+  margin: 0 auto;
+  padding: 1em;
+  text-align: center;
+  font-family: var(--Font);
+}
+
+.card__description-title {
+  font-size: 1.333rem;
+}
+.card__description-paragraph {
+  padding: 1.333em 0;
+  font-size: 1rem;
+  color: var(--Paragraph-color);
+}
+
+
+/************ FOOTER ************/
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
