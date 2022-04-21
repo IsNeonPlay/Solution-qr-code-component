@@ -7,4 +7,4 @@ Otro reto de Front-end Mentor resuelto, evidentemente este pequeño reto es bast
 
 // ENGLISH // 
 
-Another Front-end Mentor challenge solved, obviously this little challenge is quite basic and simple, only made to reinforce knowledge and have more challenges solved. There is not much to explain, just center the objects with a "margin: 0 auto;" create 2 containers, one for the letter in general and the other covers the texts, a padding. And basic styles.
+Another Front-end Mentor challenge solved, obviously this little challenge is quite basic and simple, only made to reinforce knowledge and have more challenges solved. There is not much to explain, just center the objects with a "margin: 0 auto;" create 2 containers, one for the card in general and the other covers the texts, a padding. And basic styles.
